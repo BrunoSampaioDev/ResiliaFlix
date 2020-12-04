@@ -1,0 +1,164 @@
+
+body{
+    font-family:sans-serif;
+    color: #fff;
+}
+
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.header a{
+    
+    text-decoration: none;
+    background-color: #e50914;
+    color: #fff;
+    align-self: flex-start;
+    font-weight: 100;
+    padding: 10px 18px;
+    border-radius: 3px;
+}
+
+.header img{
+    width: 150px;
+}
+
+
+/* MAIN */
+.main{
+    height: 650px;
+    background-image: url(../img/background-netflix-oficiial.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 3.125rem;
+    font-weight: 400;
+    max-width: 480px;
+    position: relative;
+}
+
+.main span{
+    font-size: 1.625rem ;
+    font-weight: 200;
+}
+
+.form-cta{
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-cta input{
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.form-cta button{
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+.main p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+.main-child{
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+
+.gradiente{
+    background-color: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(5, 5, 5);
+    padding: 30px;
+}
+
+
+.call{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    background-color: rgb(5, 5, 5);
+    padding: 20px;
+}
+
+.itemList{
+    padding: 12px;
+    color: #757575;
+    font-weight: 200;
+}
+
+.itemList:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.socialList{
+    display: flex;
+    justify-content: center;
+}
+
+.socialItem{
+    padding: 10px;
+}
+
+.fab{
+    color: #757575;
+}
+
+.copy{
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 200;
+    color: #757575;
+}
+
+/* tel */
+.lista1 .tel{
+    font-size: 20px;
+    font-weight: 400;
+}
