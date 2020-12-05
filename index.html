@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/d81cb3bdde.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Resilia Flix</title>
@@ -12,22 +14,125 @@
 
 <body>
     <header class="header">
-        <img src="./img/logoresiliaflix.png" alt="">
-        <a href="#">entrar</a>
-    </header>
-    <main class="main">
-        <div class="main-child">
-            <h1>Filmes, séries e muito mais. Sem limites.</h1>
-            <span>Assista onde quiser. Cancele quando quiser.</span>
-            <form class="form-cta">
-                <input type="text" placeholder="Email">
-                <button>Vamos la</button>
-            </form>
-            <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-        </div>
-        <div class="gradiente"></div>
-    </main>
+        <nav class="navigation">
+            <div class="nav1">
+                <div class="col1">
+                    <h1 class="logo">rflix</h1>
+                    <form>
+                        <input type="search" class="search">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
 
+                <div class="col2">
+                    <p>Watchlist <span class="det">12</span></p>
+                    <p>IMDb<span class="pro">Pro</span></p>
+                </div>
+
+                <div class="col3">
+                    <p>Bruno ferganni</p>
+                    <img src="./img/Bruno_Perfil.jpg">
+                </div>
+            </div><!-- fim nav1 -->
+
+            <div class="line"></div>
+
+            <div class="nav2">
+                <ul class="lista-menu">
+                    <li class="item-list"><a href="#">movies</a></li>
+                    <li class="item-list"><a href="#">tv shows</a></li>
+                    <li class="item-list"><a href="#">celebers</a></li>
+                    <li class="item-list"><a href="#">events</a></li>
+                    <li class="item-list"><a href="#">photos</a></li>
+                    <li class="item-list"><a href="#">news</a></li>
+                    <li class="item-list"><a href="#">community</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="trailer">
+            <h1 class="title-trailers"><i class="far fa-compass"> </i> Explore</h1>
+            <p class="description-trailers">Movies and TV shows selected for you</p>
+
+            <!-- video -->
+            <div class="movies-explore">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mbbPSq63yuM" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <div class="img-films">
+                    <img class="films-cover" src="./img/films/interestelar.jpg" alt="">
+                    <img class="films-cover" src="./img/films/hansolo.jpg" alt="">
+                    <img class="films-cover" src="./img/films/passageiros.jpg" alt="">
+                </div>
+            </div><!-- fim videos -->
+        </section>
+        <section class="filme-news">
+            <h1 class="title-trailers"><i class="fas fa-film"></i> Launch</h1>
+            <p class="description-trailers">New movies and series selected for you</p>
+
+            <section class="catalogo">
+                <div class="film-line1">
+                    <img class="films-catalogo" src="./img/films/01.jpg" alt="">
+                    <img class="films-catalogo" src="./img/films/02.jpg" alt="">
+                    <img class="films-catalogo" src="./img/films/03.jpg" alt="">
+                    <img class="films-catalogo" src="./img/films/04.jpg" alt="">
+                </div>
+                <div class="film-line2">
+                    <img class="films-catalogo" src="./img/films/05.jpg" alt="">
+                    <img class="films-catalogo" src="./img/films/06.jpg" alt="">
+                    <img class="films-catalogo" src="./img/films/07.jpg" alt="">
+                    <img class="films-catalogo" src="./img/films/08.jpg" alt="">
+                </div>
+
+            </section>
+        </section>
+
+        <section class="avaliation">
+            <div class="box-avaliation1">
+                <div class="top-avaliation">
+                    <div class="flag"><i class="fas fa-video"></i></div>
+                    <h1 class="title-avaliation">Beauty and the Best</h1>
+                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
+                    <p class="description-avaliation">family, Fantasy, musical</p>
+                </div>
+                <div class="top-avaliation">
+                    <div class="flag"><i class="fas fa-video"></i></div>
+                    <h1 class="title-avaliation">T2 Trainspotting</h1>
+                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
+                    <p class="description-avaliation">Drama</p>
+                </div>
+                <div class="top-avaliation">
+                    <div class="flag"><i class="fas fa-video"></i></div>
+                    <h1 class="title-avaliation">Song to song</h1>
+                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
+                    <p class="description-avaliation">Drama, Music, Romance</p>
+                </div>
+            </div>
+            <div class="box-avaliation2">
+                <div class="top-avaliation">
+                    <div class="flag"><i class="fas fa-video"></i></div>
+                    <h1 class="title-avaliation">Kong: Skull Island</h1>
+                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
+                    <p class="description-avaliation">Action, Adventure, Fantasy</p>
+                </div>
+                <div class="top-avaliation">
+                    <div class="flag"><i class="fas fa-video"></i></div>
+                    <h1 class="title-avaliation">Logan</h1>
+                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
+                    <p class="description-avaliation">Action, Drama, Sci-Fi</p>
+                </div>
+                <div class="top-avaliation">
+                    <div class="flag"><i class="fas fa-video"></i></div>
+                    <h1 class="title-avaliation">Get Out</h1>
+                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
+                    <p class="description-avaliation">Horror, Mystery</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer>

@@ -1,106 +1,253 @@
+/* 
+amarelo #e6b91e
+cinza do header #252525
+cinza do body #292929
+cinza da linha #2a2a2a
+azul #1f6b82
+*/
+
 
 body{
     font-family:sans-serif;
     color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    background-color: #292929;
 }
-
+/* header tag */
 .header{
-    position: absolute;
-    z-index: 100;
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-.header a{
+    background-color:#252525 ;
+    flex-wrap: wrap;
     
-    text-decoration: none;
-    background-color: #e50914;
-    color: #fff;
-    align-self: flex-start;
-    font-weight: 100;
-    padding: 10px 18px;
-    border-radius: 3px;
 }
 
-.header img{
-    width: 150px;
+/* nav geral */
+.navigation{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    padding: 10px 0;
+    margin: auto;
+    
 }
 
 
-/* MAIN */
-.main{
-    height: 650px;
-    background-image: url(../img/background-netflix-oficiial.jpg);
+/* nav de cima */
+.nav1{
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
-.main h1{
-    font-size: 3.125rem;
-    font-weight: 400;
-    max-width: 480px;
-    position: relative;
+.col1{
+    display: flex;
 }
 
-.main span{
-    font-size: 1.625rem ;
-    font-weight: 200;
+/* logo */
+.logo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #252525;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #e6b91e;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-right: 10px;
 }
 
-.form-cta{
-    display: grid;
-    grid-template-columns: 500px 250px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.form-cta input{
-    padding: 20px 10px;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-.form-cta button{
-    background-color: #e50914;
-    outline: none;
+/* input busca */
+.nav1 input{
+    padding: 10px 0;
+    width: 350px;
     border: none;
-    color: #fff;
-    font-size: 30px;
+}
+.nav1 button{
+    padding: 10px 0;
+    width: 40px;
+    background-color:#e6b91e;
+    border: none;
+    margin-left: -5px;
+}
+
+
+
+.col2{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.det{
+    background-color: #e6b91e;
+    color: #252525;
+    font-weight: 800;
+    padding: 1px 6px;
+    border-radius: 3px;
+}
+.pro{
+    color: #1f6b82;
+    font-weight: 600;
+}
+
+.col3{
+    width: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.col3 img{
+    width: 30px;
+    border-radius: 50px;
+    padding: 0 5px;
+}
+
+.line{
+    border: 1px solid #75757570;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* meu nav2 */
+.lista-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-list{
+    padding: 5px 10px;
+}
+.item-list a{
+    font-size: 12px;
+    color: #757575;
     text-transform: uppercase;
 }
 
-
-.main p{
-    font-size: 18px;
-    font-weight: 100;
+.item-list a:hover{
+    text-decoration: underline;
 }
 
 
+main{
 
-.main-child{
-    z-index: 1;
-    display: grid;
-    justify-items: center;
+    margin: auto;
 }
 
-.gradiente{
-    background-color: rgba(0,0,0,0.4);
-    background-image: linear-gradient(
-        to top,
-        rgba(0,0,0,0.8) 0,
-        rgba(0,0,0,0) 60%,
-        rgba(0,0,0,0.8) 100%
-    );
+
+.movies-explore{
+    display: flex;
+    border-bottom: 1px solid #757575;
+    padding: 0 0 45px 0;
+}
+.trailer{
+    max-width: 70%;
+    margin: auto;
+    padding: 50px;
+}
+
+.title-trailers{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.description-trailers{
+    padding: 5px 0 20px 0 ;
+}
+
+.films-cover{
+    height: 315px;
+    margin: 0 5px;
+}
+
+.img-films{
+    display: flex;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    right: -180px;
 }
+
+
+.fa-compass{
+    color: #e6b91e;
+}
+
+.filme-news{
+    width: 70%;
+    margin: auto;
+}
+.fa-film{
+    color: #e6b91e;
+}
+
+.catalogo{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.films-catalogo{
+    height: 300px;
+    margin: 15px 5px;
+}
+
+.film-line2{
+    margin-top: 10px;
+    
+}
+
+img:hover{
+    height: 315px;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.avaliation{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #757575;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+.top-avaliation{
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin: 20px 0;
+}
+.fa-video{
+    color: #e6b91e;
+    font-size: 25px;
+}
+
+.title-avaliation{
+    font-size: 20px;
+    width: 300px;
+}
+
+.fa-star{
+    font-size: 13px;
+    color: #e6b91e;
+}
+
+.description-avaliation{
+    padding: 10px 0;
+    color: #757575;
+    
+}
+
+
 
 
 
@@ -111,7 +258,7 @@ body{
 /* FOOTER */
 
 footer{
-    background-color: rgb(5, 5, 5);
+    background-color: #252525 ;
     padding: 30px;
 }
 
@@ -120,7 +267,6 @@ footer{
     display: flex;
     justify-content: space-evenly;
     font-size: 14px;
-    background-color: rgb(5, 5, 5);
     padding: 20px;
 }
 
