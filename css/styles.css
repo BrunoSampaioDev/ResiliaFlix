@@ -183,15 +183,15 @@ main{
 }
 
 .catalogo{
-    margin: auto;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .films-catalogo{
     height: 300px;
-    margin: 15px 5px;
+    margin: 5px 5px;
 }
 
 .film-line2{
@@ -200,9 +200,11 @@ main{
 }
 
 img:hover{
-    height: 315px;
-    transition-duration: 500ms;
     cursor: pointer;
+    
+    transition-duration: 1s;
+    
+    transform: scale(1.2);
 }
 
 .avaliation{
