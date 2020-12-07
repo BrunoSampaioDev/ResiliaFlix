@@ -14,64 +14,76 @@
 
 <body>
     <header class="header">
-        <nav class="navigation">
-            <div class="nav1">
-                <div class="col1">
-                    <h1 class="logo">rflix</h1>
-                    <form>
-                        <input type="search" class="search">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
+        <div class="mobail-nav">
+            <a href="#" class="btn-menu"><i class="fas fa-bars"></i></a>
+        </div>
+
+        <div class="main-nav btnAbrir">
+            <nav class="navigation">
+                <div class="nav1">
+                    <div class="col1">
+                        <h1 class="logo">rflix</h1>
+                        <form>
+                            <input type="search" class="search">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="col2">
+                        <p>Watchlist <span class="det">12</span></p>
+                        <p>IMDb<span class="pro">Pro</span></p>
+                    </div>
+
+                    <div class="col3">
+                        <p>Bruno ferganni</p>
+                        <img src="./img/Bruno_Perfil.jpg">
+                    </div>
+                </div><!-- fim nav1 -->
+
+                <div class="line"></div>
+
+                <div class="nav2">
+                    <ul class="lista-menu">
+                        <li class="item-list"><a href="#">movies</a></li>
+                        <li class="item-list"><a href="#">tv shows</a></li>
+                        <li class="item-list"><a href="#">celebers</a></li>
+                        <li class="item-list"><a href="#">events</a></li>
+                        <li class="item-list"><a href="#">photos</a></li>
+                        <li class="item-list"><a href="#">news</a></li>
+                        <li class="item-list"><a href="#">community</a></li>
+                    </ul>
                 </div>
-
-                <div class="col2">
-                    <p>Watchlist <span class="det">12</span></p>
-                    <p>IMDb<span class="pro">Pro</span></p>
+                <div class="mobail-nav-close">
+                    <a href="#" class="btnClose"><i class="fas fa-times-circle"></i></a>
                 </div>
-
-                <div class="col3">
-                    <p>Bruno ferganni</p>
-                    <img src="./img/Bruno_Perfil.jpg">
-                </div>
-            </div><!-- fim nav1 -->
-
-            <div class="line"></div>
-
-            <div class="nav2">
-                <ul class="lista-menu">
-                    <li class="item-list"><a href="#">movies</a></li>
-                    <li class="item-list"><a href="#">tv shows</a></li>
-                    <li class="item-list"><a href="#">celebers</a></li>
-                    <li class="item-list"><a href="#">events</a></li>
-                    <li class="item-list"><a href="#">photos</a></li>
-                    <li class="item-list"><a href="#">news</a></li>
-                    <li class="item-list"><a href="#">community</a></li>
-                </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="trailer">
-            <h1 class="title-trailers"><i class="far fa-compass"> </i> Explore</h1>
-            <p class="description-trailers">Movies and TV shows selected for you</p>
+            <div class="title-trailer">
+                <h1 class="title-trailers"><i class="far fa-compass"> </i> Explore</h1>
+                <p class="description-trailers">Movies and TV shows selected for you</p>
+            </div>
 
             <!-- video -->
             <div class="movies-explore">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mbbPSq63yuM" frameborder="0"
+                <iframe class="exclusive" width="560" height="315" src="https://www.youtube.com/embed/mbbPSq63yuM"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
                 <div class="img-films">
                     <img class="films-cover" src="./img/films/interestelar.jpg" alt="">
-                    <img class="films-cover" src="./img/films/hansolo.jpg" alt="">
-                    <img class="films-cover" src="./img/films/passageiros.jpg" alt="">
                 </div>
             </div><!-- fim videos -->
         </section>
         <section class="filme-news">
-            <h1 class="title-trailers"><i class="fas fa-film"></i> Launch</h1>
-            <p class="description-trailers">New movies and series selected for you</p>
+            <div class="title-filme-news">
+                <h1 class="title-trailers"><i class="fas fa-film"></i> Launch</h1>
+                <p class="description-trailers">New movies and series selected for you</p>
+            </div>
 
             <section class="catalogo">
                 <div class="film-line1">
@@ -91,44 +103,123 @@
         </section>
 
         <section class="avaliation">
-            <div class="box-avaliation1">
-                <div class="top-avaliation">
-                    <div class="flag"><i class="fas fa-video"></i></div>
-                    <h1 class="title-avaliation">Beauty and the Best</h1>
-                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
-                    <p class="description-avaliation">family, Fantasy, musical</p>
+            <div class="container-avaliations">
+                <div class="box-avaliation1">
+                    <h1 class="title-trailers">Opening this week</h1>
+                    <div class="top-avaliation">
+                        <div class="flag"><i class="fas fa-video"></i></div>
+                        <h1 class="title-avaliation">Beauty and the Best</h1>
+                        <div class="star">
+                            <p><i class="fas fa-star"></i> 7.7</p>
+                        </div>
+                        <p class="description-avaliation">family, Fantasy, musical</p>
+                    </div>
+                    <div class="top-avaliation">
+                        <div class="flag"><i class="fas fa-video"></i></div>
+                        <h1 class="title-avaliation">T2 Trainspotting</h1>
+                        <div class="star">
+                            <p><i class="fas fa-star"></i> 7.7</p>
+                        </div>
+                        <p class="description-avaliation">Drama</p>
+                    </div>
+                    <div class="top-avaliation">
+                        <div class="flag"><i class="fas fa-video"></i></div>
+                        <h1 class="title-avaliation">Song to song</h1>
+                        <div class="star">
+                            <p><i class="fas fa-star"></i> 7.7</p>
+                        </div>
+                        <p class="description-avaliation">Drama, Music, Romance</p>
+                    </div>
                 </div>
-                <div class="top-avaliation">
-                    <div class="flag"><i class="fas fa-video"></i></div>
-                    <h1 class="title-avaliation">T2 Trainspotting</h1>
-                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
-                    <p class="description-avaliation">Drama</p>
-                </div>
-                <div class="top-avaliation">
-                    <div class="flag"><i class="fas fa-video"></i></div>
-                    <h1 class="title-avaliation">Song to song</h1>
-                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
-                    <p class="description-avaliation">Drama, Music, Romance</p>
+                <div class="box-avaliation2">
+                    <h1 class="title-trailers">Now playing</h1>
+                    <div class="top-avaliation">
+                        <div class="flag"><i class="fas fa-video"></i></div>
+                        <h1 class="title-avaliation">Kong: Skull Island</h1>
+                        <div class="star">
+                            <p><i class="fas fa-star"></i> 7.7</p>
+                        </div>
+                        <p class="description-avaliation">Action, Adventure, Fantasy</p>
+                    </div>
+                    <div class="top-avaliation">
+                        <div class="flag"><i class="fas fa-video"></i></div>
+                        <h1 class="title-avaliation">Logan</h1>
+                        <div class="star">
+                            <p><i class="fas fa-star"></i> 7.7</p>
+                        </div>
+                        <p class="description-avaliation">Action, Drama, Sci-Fi</p>
+                    </div>
+                    <div class="top-avaliation">
+                        <div class="flag"><i class="fas fa-video"></i></div>
+                        <h1 class="title-avaliation">Get Out</h1>
+                        <div class="star">
+                            <p><i class="fas fa-star"></i> 7.7</p>
+                        </div>
+                        <p class="description-avaliation">Horror, Mystery</p>
+                    </div>
                 </div>
             </div>
-            <div class="box-avaliation2">
-                <div class="top-avaliation">
-                    <div class="flag"><i class="fas fa-video"></i></div>
-                    <h1 class="title-avaliation">Kong: Skull Island</h1>
-                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
-                    <p class="description-avaliation">Action, Adventure, Fantasy</p>
+        </section>
+        <section class="watch-now-free">
+            <div class="title-watch-now-free">
+                <h1 class="title-trailers"><i class="fas fa-play-circle"></i> watch free now</h1>
+                <p class="description-trailers">Movies and series free for you</p>
+            </div>
+
+            <div class="watch-free-videos">
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/Y7d0A5re7-0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
-                <div class="top-avaliation">
-                    <div class="flag"><i class="fas fa-video"></i></div>
-                    <h1 class="title-avaliation">Logan</h1>
-                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
-                    <p class="description-avaliation">Action, Drama, Sci-Fi</p>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/VNxwlx6etXI" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
-                <div class="top-avaliation">
-                    <div class="flag"><i class="fas fa-video"></i></div>
-                    <h1 class="title-avaliation">Get Out</h1>
-                    <div class="star"><p><i class="fas fa-star"></i> 7.7</p></div>
-                    <p class="description-avaliation">Horror, Mystery</p>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/TZi3QSWEmT0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/NcnK3C5W7SI" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/hA6hldpSTF8" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/8Qn_spdM5Zg" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/zwhzHG2RTc8" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/aOC8E8z_ifw" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video">
+                    <iframe width="330" height="180" src="https://www.youtube.com/embed/9RNHKKYJvg8" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </section>
@@ -175,6 +266,7 @@
             <p>&copy - ResiliaFlix todos os direitos reservados</p>
         </div>
     </footer>
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
