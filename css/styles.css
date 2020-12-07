@@ -16,9 +16,11 @@ body{
 }
 /* header tag */
 .header{
+    position: fixed;
     width: 100%;
     display: flex;
     background-color:#252525 ;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     flex-wrap: wrap;
     
 }
@@ -26,7 +28,6 @@ body{
 /* nav geral */
 .main-nav{
     width: 100%;
-    padding: 10px;
     display: flex;
 }
 
@@ -155,11 +156,16 @@ main{
     justify-content: space-around;
     border-bottom: 1px solid #757575;
     padding: 0 0 45px 0;
+    margin-top: 30px;
 }
 .trailer{
     max-width: 70%;
     margin: auto;
     padding: 50px;
+}
+
+.title-exh1{
+    margin-top: 110px;
 }
 
 .title-trailers{
@@ -446,6 +452,7 @@ footer{
     .title-trailer{
         width: 80%;
         margin: auto;
+        margin-top: 70px;
     }
     .movies-explore{
         width: 100%;
