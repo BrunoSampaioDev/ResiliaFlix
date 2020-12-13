@@ -12,9 +12,9 @@ O desafio era criar o front-end de uma plataforma de steaming / entretenimento, 
 
 As seguintes ferramentas foram usadas na construção do projeto até o presente momento:
 
-- [HTML5]
-- [CSS3]
-- [JavaScript]
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
 _OBS: Este projeto está sendo atualizado constantemente, semre que tenho algum tempo sobrando aproveito para
