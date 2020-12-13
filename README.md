@@ -4,7 +4,7 @@ O desafio era criar o front-end de uma plataforma de steaming / entretenimento, 
 
 - [x] Versão Desktop
 - [x] Versão mobail iphones 6, 7, 8, X /Plus
-- [o] Versão mobail Ipdas e outro tablets (Ainda em andamento)
+- [ ] Versão mobail Ipdas e outro tablets (Ainda em andamento)
 
 OBS: Este projeto está sendo atualizado constantemente, semre que tenho algum tempo sobrando aproveito para
 implemntar novos comportamentos na interface, corrigir bugs etc...
@@ -12,8 +12,8 @@ implemntar novos comportamentos na interface, corrigir bugs etc...
 ### Demonstação do template nas versões Mobail e Desktop.
 
 #### Versão Desktop
-![alt text](githubAssets/gif-resiliaflix-desktop-version.gif)
+![alt text](img/githubAssets/gif-resiliaflix-desktop-version.gif)
 
 
 #### Versão Mobail
-![alt text](githubAssets/git-resilia-flix-mobail.gif)
+![alt text](img/githubAssets/git-resilia-flix-mobail.gif)
