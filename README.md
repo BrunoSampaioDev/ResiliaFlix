@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto até o presente
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
-_OBS: Este projeto está sendo atualizado constantemente, semre que tenho algum tempo sobrando aproveito para
+_OBS: Este projeto está sendo atualizado constantemente, sempre que tenho algum tempo sobrando aproveito para
 implementar novos comportamentos na interface, corrigir bugs etc..._
 
 ### Demonstação do template nas versões Mobail e Desktop.
