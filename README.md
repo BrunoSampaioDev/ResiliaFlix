@@ -29,3 +29,4 @@ implementar novos comportamentos na interface, corrigir bugs etc..._
 #### Versão Mobail
 ![alt text](img/githubAssets/mobail-version-resiliaflix.gif)       ![alt text](img/githubAssets/menu-mobail.gif)
 
+- [Template Inspiration](https://dribbble.com/shots/3391045-IMDb-redesign)
