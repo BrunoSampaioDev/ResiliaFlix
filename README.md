@@ -6,8 +6,17 @@ O desafio era criar o front-end de uma plataforma de steaming / entretenimento, 
 - [x] Versão mobail iphones 6, 7, 8, X /Plus
 - [ ] Versão mobail Ipdas e outro tablets (🚧  🚀 Em construção...  🚧)
 
-OBS: Este projeto está sendo atualizado constantemente, semre que tenho algum tempo sobrando aproveito para
-implementar novos comportamentos na interface, corrigir bugs etc...
+
+#### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto até o presente momento:
+
+- [HTML5](https://expo.io/)
+- [CSS3](https://nodejs.org/en/)
+- [JavaScript](https://pt-br.reactjs.org/)
+
+_OBS: Este projeto está sendo atualizado constantemente, semre que tenho algum tempo sobrando aproveito para
+implementar novos comportamentos na interface, corrigir bugs etc..._
 
 ### Demonstação do template nas versões Mobail e Desktop.
 
@@ -17,3 +26,7 @@ implementar novos comportamentos na interface, corrigir bugs etc...
 
 #### Versão Mobail
 ![alt text](img/githubAssets/mobail-version-resiliaflix.gif)       ![alt text](img/githubAssets/menu-mobail.gif)
+
+
+License:
+![APM](https://img.shields.io/apm/l/MIT)
