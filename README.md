@@ -7,7 +7,7 @@ O desafio era criar o front-end de uma plataforma de steaming / entretenimento, 
 - [ ] Versão mobail Ipdas e outro tablets (Ainda em andamento)
 
 OBS: Este projeto está sendo atualizado constantemente, semre que tenho algum tempo sobrando aproveito para
-implemntar novos comportamentos na interface, corrigir bugs etc...
+implementar novos comportamentos na interface, corrigir bugs etc...
 
 ### Demonstação do template nas versões Mobail e Desktop.
 
