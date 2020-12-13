@@ -16,4 +16,4 @@ implementar novos comportamentos na interface, corrigir bugs etc...
 
 
 #### Versão Mobail
-![alt text](img/githubAssets/git-resilia-flix-mobail.gif) ![alt text](img/githubAssets/menu-mobail.gif)
+![alt text](img/githubAssets/git-resilia-flix-mobail.gif)       ![alt text](img/githubAssets/menu-mobail.gif)
