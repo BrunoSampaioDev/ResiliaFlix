@@ -16,6 +16,4 @@ implementar novos comportamentos na interface, corrigir bugs etc...
 
 
 #### Versão Mobail
-<h1 align="center">
-    ![alt text](img/githubAssets/mobail-version-resiliaflix.gif)       ![alt text](img/githubAssets/menu-mobail.gif)
-</h1>
+![alt text](img/githubAssets/mobail-version-resiliaflix.gif)       ![alt text](img/githubAssets/menu-mobail.gif)
